@@ -1,0 +1,38 @@
+
+
+
+.first-section{
+   
+    background-color: rgba(255, 93, 37, 0.12);
+    
+}
+.heading1{
+    color: #FF5D25;
+    
+}
+.heading2{
+    
+    font-weight: bold;
+}
+.text1{
+    font-weight: 800;
+    font-size: 20px;
+}
+.logo1
+{
+    width:50px;
+}
+.text2{
+    
+font-size: 34px;
+font-weight: 400;
+line-height: 41px;
+
+
+
+   
+}
+.button-last{
+    background-color: #FF5D25;
+    margin-top: 5rem;
+}
