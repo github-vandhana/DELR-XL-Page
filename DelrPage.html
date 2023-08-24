@@ -4,69 +4,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DEALR-XL</title>
-    <link rel="stylesheet" type="text/css" href="DelrPage.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+    <title>Delr Xl</title>
+    <link rel="stylesheet" href="DelrPage.css">
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="row vh-100">
+    <div class="main-container">
+        <div class="first-section">
+            <img src="images/first-sectionimage.jpg" class="image">
 
-            <div class="col-md-6 d-flex justify-content-center align-items-center first-section">
-                <div class="image-1">
-                    <img src="images/first-sectionimage.jpg" class="img-fluid" style="width: 400px;">
-
+        </div>
+        <div class="second-section">
+            <div class="text-center">
+                <div class="logo">
+                    <img src="images/logo1.jpg" class="logo-1">
                 </div>
+                <p class="text1">DELR <span class="heading1">XL</span></p>
+                <p class="text2">Nice to see you again</p>
             </div>
-
-            <div class="col-md-6 bg-white d-flex justify-content-center align-items-center">
-                <div class="row ">
-                    <div class="right-text text-center">
-                        <div class="logo">
-                            <img src="images/logo1.jpg" class="img-fluid logo-1">
-                        </div>
-                        <p class="text1">DELR <span class="heading1">XL</span></p>
-                        <p class="text2">Nice to see you again</p>
+        
+            <form>
+                <div class=" space">
+                    <div class="first-one">
+                        <h3 class="heading-2">Login</h4>
                     </div>
-                    <form>
-                        <div class="form-grp mb-3">
-                            <div class="first-one">
-                                <h4 class="heading-2 mt-4 mb-4">Login</h4>
-                            </div>
-                            <label for="email" class="form-label">Email Id</label>
-                            <input type="email" class="form-control" placeholder="info@ohoh.in" id="email">
-                        </div>
-                        <div class="form-grp mb-1">
+                </div>
+                <div class="email">
+                    <div class="label-1">
+                        <label for="email">Email Id</label>
+                    </div>
+                    <input type="email" placeholder="info@ohoh.in" id="email" class="input">
+                </div>
+                <div class="password">
 
-                            <label for="password" class="form-label">Password</label>
-                            <input type="password" class="form-control" placeholder="*****" id="password">
-                        </div>
-
-                        <div class="forgot mb-5 d-flex justify-content-end">
-                            <a href="#">Forgot Password?</a>
-
-                        </div>
-                        <div class="button-last rounded-3">
-                            <button class="btn btn-lg text-white w-100">Login</button>
-                        </div>
-
-
-                    </form>
-
+                    <label for="password" class="label-1">Password</label>
+                    <input type="password" placeholder="*****" id="password" class="input">
                 </div>
 
-            </div>
+                <div class="forgot">
+                    <a href="#" class="forgot">Forgot Password?</a>
+
+                </div>
+                <div class="button">
+                    <button class="btn">Login</button>
+                </div>
+
+
+            </form>
         </div>
 
-
-
-
     </div>
+
+
+
 </body>
 
 </html>
